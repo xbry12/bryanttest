@@ -1,0 +1,12 @@
+state:
+postID = string
+postURL = string
+company = string
+position = string
+location = string
+remote = boolean
+appURL = string
+endResult = int
+dateCreated = Date
+dateUpdated = Date
+notes = string

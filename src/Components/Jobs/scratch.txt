@@ -1,0 +1,5 @@
+state:
+searchQuery = string
+resultsList = empty array
+detailsResults = empty array
+savedJobs = empty array

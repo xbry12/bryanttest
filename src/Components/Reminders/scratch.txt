@@ -1,0 +1,17 @@
+Edit Reminder:
+reminderID = int
+trackerID = int
+daysAway = int
+dateCreated = Date 
+contactEmail = string
+contactName = string
+contactPosition = string
+contactPhone = integer
+note = string
+
+New reminder
+reminderID = int
+trackerID = int
+daysAway = int
+
+reminders state: userList = array

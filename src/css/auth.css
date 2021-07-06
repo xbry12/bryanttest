@@ -1,0 +1,107 @@
+.authButton {
+    background-color: #540D6E;
+    padding: .5rem;
+    margin: .5rem;
+    width: 60%;
+    border-radius: .1rem;
+    cursor:pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+}
+
+.authButton:hover {
+    color:#540D6E;
+    background-color: white;
+    border: 1px solid #540D6E;
+    transition: .5s ease;
+}
+.authForm {
+    place-items: center;
+    display:flex;
+    flex-direction: column;
+    width:80%;
+}
+
+.authUsernameGroup {
+    width: 100%;
+}
+
+.authUsernameControl {
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.authEmailGroup {
+    width: 100%;
+}
+
+.authEmailControl {
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.authPasswordGroup {
+    width: 100%;
+}
+
+.authPasswordControl {
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.authContainer {
+    width: 50vw;
+}
+
+
+.authContainer.hidden {
+    display: hidden;
+} 
+
+#authForgotPassword {
+    color:rgb(40, 40, 41);
+    background-color: transparent;
+    border: transparent;
+    font-style: italic;
+}
+
+#authForgotPassword:hover {
+    color:#540D6E;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.authContainer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 24px;
+
+    letter-spacing: 0.1px;
+
+    color: #540D6E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.row{
+    justify-content: center;
+}
+
+.modal{
+    background-color: #86BBD8;
+}
+
+#close-btn{
+    background-color: #75B204;
+}

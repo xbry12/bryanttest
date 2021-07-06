@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+
+}
+
+body {
+  --color-aqua: #00ffff;
+  --color-blue-light: #86bbd8;
+  --color-green: #75b204;
+  --color-orange: #ffae00;
+  --color-red: #d90000;
+  --color-grey: #979797;
+  --color-grey-light: #ebedf0;
+  --color-purple: #540d6e;
+  /* width: 100vw; */
+}

@@ -1,0 +1,7 @@
+.todoCard {
+    background-color: aqua;
+}
+
+.todoCard.complete {
+    background-color: blue;
+}

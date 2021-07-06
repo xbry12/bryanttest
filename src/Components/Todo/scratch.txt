@@ -1,0 +1,8 @@
+state
+userLists = array
+            stores all active todo lists from database call
+
+currentList = string
+                string id for Mongo
+
+listObject = empty array

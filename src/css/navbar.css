@@ -1,0 +1,326 @@
+.react-custom-scrollbars-fix::-webkit-scrollbar {
+    width: 7px;
+  }
+
+/*called by JobsPortal.js*/
+.navbarContainer {
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    height: 10vh;
+}
+
+ .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #979797;
+    border-color: none;
+}
+
+.nav-tabs .nav-link, .nav-tabs .nav-link::after{
+    color: #540D6E;
+    border-color: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+    color: #540D6E;
+}
+
+.nav-tabs .nav-link:hover{
+    color:#540D6E;
+}
+
+
+/* .navbarContainer tabs {
+    
+} */
+
+/*called by JobDetails.js*/
+.jobCard {
+    /* background-color: yellow; */
+    align-content:center;
+    justify-items: center;
+}
+
+.card:hover{
+    background-color:#86BBD8;
+}
+
+.card-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 3em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    
+    color: #36393B;
+}
+
+/* styling component to be used with Form inline component, not form.group, inputgroup component
+.form-control{
+    width: 760px;
+    height: 33px;
+    left: 653px;
+    top: 165px;
+    
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 20px;
+} */
+/*.jobCard .btn*/
+ #star-btn {
+    color:grey;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0%;
+    margin: 0;
+    border-color: transparent;
+}
+
+#star-btn:hover{
+    color:red;
+}
+
+#star-btn:active{
+    color:blue;
+}
+
+
+
+#sort-btn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+    color: #540D6E;
+
+    border-color: #bcd6e4;
+    border-width: .1em;
+    background-color: aliceblue;
+}
+
+#title_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1em;
+    /* or 367% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #36393B;
+}
+
+#subtitle_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1em;
+    /* or 550% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #979797;
+    }
+
+#subtitle2_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1px;
+
+    color: #979797;
+}
+
+#subtitle3_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 66px;
+    /* identical to box height, or 660% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #979797;
+}
+
+.jobResultsRow{
+    height: 10vh;
+}
+
+#title2_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #540D6E;
+    text-align: center;
+}
+
+.card-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1em;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+
+    color: #979797;
+}
+
+
+.jobColOne {
+    border: 2px solid grey;
+    align-items:center;
+    height: 100vh;
+    overflow: auto;
+    justify-content: stretch;
+    align-content: center;
+    justify-items: center;
+    background-color: green;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+
+}
+
+.jobColTwo {
+    height:100vh;
+    border: 2px solid grey;
+    overflow: auto;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+
+}
+
+.applyButtons {
+    background-color: #86BBD8;
+    border-color: #86BBD8;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 66px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    /* identical to box height, or 660% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+
+    width: 181px;
+    height: 35px;
+    left: 887px;
+    top: 401px;
+}
+
+
+/*called by JobTable*/
+.jobDescription {
+    white-space: pre-wrap;
+    text-overflow:hidden;
+    overflow: scroll;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    
+    color: #646768;
+}
+
+/*code for styling function NavBar() from DashBoardNav.js.
+  represents 4 links in left side column of page: "Dashboard","Jobs","To Do List","Analytics"*/
+
+.jobNavbar {
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+/*START*/
+.jobNavbar a:link, a:visited{
+    position: sticky;
+    height: 100%;
+    left: 21px;
+    top: 291px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #9F9F9F;
+
+    }
+      
+.jobNavbar a:hover, a:active {
+    background: #86BBD8;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 0px 0px 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+/*END*/
+
+.jobSearch {
+    justify-content: right;
+    align-items: right;
+    align-content: right;
+}
+
+.jobSearch .col-auto{
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+
+}
+
+.JobTable .col{
+    padding: 1em;
+    height: 10vh;
+    background-color: orchid;
+    box-shadow: -5px 0px 10px grey;
+
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+}

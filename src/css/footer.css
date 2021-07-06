@@ -1,0 +1,16 @@
+.social {
+  /* background-color: red; */
+  margin-left: 5%;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--color-orange);
+}

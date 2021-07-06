@@ -1,0 +1,14 @@
+#header{
+    background-color: purple;
+}
+
+.showUsername{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+
+    color: #86BBD8;
+}

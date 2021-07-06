@@ -1,0 +1,67 @@
+
+.dashboardButton {
+    color:grey;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0%;
+    margin: 0;
+    border-color: transparent;
+}
+
+.dashboardButton:hover{
+    color:red;
+}
+
+.col:last-of-type{
+    /* background-color: yellow; */
+    padding: 0%;
+}
+
+.logHead{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+
+    color: #540D6E;
+}
+
+.logBody{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 66px;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #36393B;
+  }
+
+.dashboardButton:active{
+    color:blue;
+}
+
+
+.eyeButton {
+    color:grey;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0%;
+    margin: 0;
+    border-color: transparent;
+}
+
+.eyeButton:hover{
+    color:red;
+}
+
+.eyeButton:active{
+    color:blue;
+}
